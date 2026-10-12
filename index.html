@@ -14,14 +14,24 @@
         <iframe title="Карта района" src="./embedded/map.html"></iframe>
       </section>
       <section>
+        <h2>О проекте</h2>
+        <figure>
+          <iframe title="Страница о проекте" src="./embedded/about.html"></iframe>
+          <figcaption>Вторая встроенная страница: отдельный HTML-документ внутри текущей страницы.</figcaption>
+        </figure>
+      </section>
+      <section>
         <h2>Видео</h2>
         <video controls poster="./media/poster.svg">
-          <!-- TODO: source -->
+          <source src="./media/city.mp4" type="video/mp4" />
+          <source src="./media/city.webm" type="video/webm" />
         </video>
       </section>
       <section>
         <h2>Аудио</h2>
-        <audio controls><!-- TODO: source --></audio>
+        <audio controls>
+          <source src="./media/interview.mp3" type="audio/mpeg" />
+        </audio>
       </section>
     </main>
   </body>
